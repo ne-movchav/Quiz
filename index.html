@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='uk'>
+    <head>
+        <title>Yaelokre lore опитування</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <!-- Додай верстку для додатка тут -->
+        <div class="welcome screen active">
+            <h1>Привіт! Як добре ти знаєш <br>селище Yaelokre?</br></h1>
+            <button class="start-quiz-btn btn">-Пройти тест-</button>
+            <p>Хай Боги тебе благословлять!</p>
+        </div>
+
+        <div class="quiz screen">
+            <h1 class="quiz_question">Хто лідер гурту?</h1>
+            <div class="quiz_answers">
+                <button class="answer">Перрін</button>
+                <button class="answer">Кінґслі</button>
+                <button class="answer">Коул</button>
+                <button class="answer">Клемі</button>
+            </div>
+            <p class="quiz_counter">Запитання <span>1</span>/10</p>
+
+            <p class="quiz_message">*Кінґслі впевнено вказує на себе великими пальцями*</p>
+
+            <div class="timer">
+                10
+            </div>
+        </div>
+
+        <div class="result screen">
+            <h1 class="result_title">Ми думали тобі знадобиться більше часу!</h1>
+            <button class="restart-quiz-btn btn">-Пройти ще раз-</button>
+            <p class="result_message">Твій результат: <span class="score">-/10</span></p>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
